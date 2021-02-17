@@ -1,0 +1,11 @@
+server:
+  port: 1231
+spring:
+  application:
+    name: yaho
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
